@@ -1,19 +1,13 @@
-/* Reset some default styles */
-body, h1, p {
-    margin: 70;
-    padding: 10;
-  }
-  
-  /* Create a background*/
+    /* BACKGROUND IMAGE */
   body {
-    background-image: url(pics/bg.jpg);
+    background-image: url(pics/bg2.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
   }
 
   
-  /* Style the header */
+  /* HEADER */
   header {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
@@ -31,9 +25,10 @@ body, h1, p {
 
   }
 
-  nav {
-
+  h3{
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
   }
 
 
@@ -48,25 +43,55 @@ body, h1, p {
     font-family: 'Oswald', sans-serif;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    text-align: left;
+    text-align: center;
   
-    
-
-
 
   }
+
+
+
+/* FOOTER */
 
   #footer{
     font-size: 30px;
     color: #000;
-    font-style:normal 
+    font-family: 'poppins', sans-serif;
   
   }
 
-  /* mobile phones*/
+  nav {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000;
+  
+  }
+
+  footer{
+
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    Margin: 0 Auto;
+    box-sizing: border-box;
+    width: 80%;
+    
+    
+  }
+
+
+
+
+
+
+
+  /* this is for mobile phone code*/
 @media (max-width: 768px) {
   body {
+    background-image:url(pics/phone2.png);
     background-size: 100% 100%; /* Stretch the background image to cover the entire viewport */
+    
+
   }
   #text {
     font-size: 15px;
@@ -76,7 +101,7 @@ body, h1, p {
     font-family: 'Oswald', sans-serif;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    text-align: left;
+    text-align: center;
   }
   h1 {
     font-size: 20px;
@@ -85,12 +110,28 @@ body, h1, p {
   }
   h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
 
+  }
+  h3{
+    font-size: 13px;
   }
   nav {
 
     font-family: 'Poppins', sans-serif;
     font-size:10px;
   }
+  #footer{
+    font-size: 20px;
+    
+  }
+   
+
+  
 }
+
+
+
+
+
+
